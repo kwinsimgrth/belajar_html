@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+ }
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ /* style untuk header */
+ header {
+    background-color: lightskyblue;
+    padding: 30%;
+    text-align: center;
+    font-size: 35px;
+ }
+ nav{
+    float: left;
+    width: 30%;
+    height: 300px;
+    background-color: lightpink;
+    color:black;
+    padding: 20px;
+ }
+ article{
+    float: left;
+    background-color: lightblue;
+    padding: 20px;
+    width: 70%;
+    height: 300px;
+    color: black;
+    
+ }
+ .dinsu{
+    background-color: rgb(255, 164, 178);
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    float: left;
+    height: 200px;
+ }
+ .kepo{
+    background-color: rgb(111, 185, 210);
+    padding: 20px;
+    width: 50%;
+    text-align: left;
+    float: right;
+    height: 200px;
+ }
+ 
+ .card {
+   border-radius: 8px;
+   box-shadow: 3px 3px 20px lightgray;
+   padding: 20px;
+   width: 100%;
+   height: 50px;
+   background-color: rgb(255, 255, 255);
+ }
+
+ footer{
+    background-color: lightskyblue;
+    padding: 20px;
+    text-align: center;
+ }
+
+ 

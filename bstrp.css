@@ -1,0 +1,42 @@
+.banner {
+    background: url("img/51cdaf44-d378-4cdd-8f55-c6cca108ec8f.jpg")
+       no-repeat center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor {
+    width: 20%;
+    margin:auto;
+}
+
+.kartu-tutor img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-tutor p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: grey;
+}
+
+.kontak {
+    background: url("img/51cdaf44-d378-4cdd-8f55-c6cca108ec8f.jpg")
+       no-repeat center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+}

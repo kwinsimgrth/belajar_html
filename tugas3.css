@@ -1,0 +1,8 @@
+.banner {
+    background: url("img/51cdaf44-d378-4cdd-8f55-c6cca108ec8f.jpg")
+       no-repeat center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+}

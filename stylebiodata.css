@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 80px;
+}
+
+header {
+    display: inline;
+}
+nav {
+    background-color: grey;
+    padding:5px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+@media  screen and(max-width: 375px) {
+    nav li a {
+        font-size: 0.9rem !important;
+    }
+}
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+nav a:hover {
+    transition: 1.4s;
+    border-bottom: 1px solid white;
+}
+.dajal {
+    font-size: 20px;
+    padding: 60px;
+    background-color: grey;
+    text-align: center;
+    color: black;
+}
+
+.dajal p {
+    font-size: 1rem;
+}
+
+.card {
+    border-radius: 8px;
+    box-shadow: 3px 3px 20px lightgray;
+    padding: 20px;
+}
+
+footer {
+    bottom: 0;
+    width: 99%;
+    position: fixed;
+    background-color: grey;
+    padding: 20px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
